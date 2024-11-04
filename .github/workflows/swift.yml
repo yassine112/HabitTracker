@@ -10,16 +10,16 @@ on:
 
 jobs:
   build:
-    runs-on: macos-12
+    runs-on: macos-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Xcode 13
+      - name: Set up Xcode
         run: |
-          xcode-select --install # Install Command Line Tools if you haven't already.
-          sudo xcode-select --switch /Library/Developer/CommandLineTools # Enable command line tools
+          xcode-select --install
+          sudo xcode-select --switch /Library/Developer/CommandLineTools
           sudo xcodebuild -license accept
 
       #- name: Install dependencies
