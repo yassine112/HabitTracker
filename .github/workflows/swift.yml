@@ -21,9 +21,9 @@ jobs:
           sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
           sudo xcodebuild -license accept
 
-      - name: Install dependencies
-        run: |
-          swift package update  # Update dependencies if using Swift Package Manager
+      #- name: Install dependencies
+      #  run: |
+      #    swift package update  # Update dependencies if using Swift Package Manager
 
       - name: Build the app
         run: |
