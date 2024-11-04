@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,9 +30,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		04958ED42CD8CA3000E3B6D4 /* HabitTracker */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = HabitTracker; sourceTree = "<group>"; };
-		04958EE52CD8CA3200E3B6D4 /* HabitTrackerTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = HabitTrackerTests; sourceTree = "<group>"; };
-		04958EEF2CD8CA3200E3B6D4 /* HabitTrackerUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = HabitTrackerUITests; sourceTree = "<group>"; };
+		04958ED42CD8CA3000E3B6D4 /* HabitTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HabitTracker;
+			sourceTree = "<group>";
+		};
+		04958EE52CD8CA3200E3B6D4 /* HabitTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HabitTrackerTests;
+			sourceTree = "<group>";
+		};
+		04958EEF2CD8CA3200E3B6D4 /* HabitTrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HabitTrackerUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +187,6 @@
 				};
 			};
 			buildConfigurationList = 04958ECD2CD8CA3000E3B6D4 /* Build configuration list for PBXProject "HabitTracker" */;
-			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -184,6 +195,7 @@
 			);
 			mainGroup = 04958EC92CD8CA3000E3B6D4;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 04958ED32CD8CA3000E3B6D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
