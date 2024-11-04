@@ -23,7 +23,7 @@ jobs:
 
       - name: Build the app
         run: |
-          xcodebuild -scheme HabitTracker -sdk iphoneos -configuration Release
+          xcodebuild -scheme HabitTracker -sdk iphoneos -configuration Release -allowProvisioningUpdates
 
       - name: Run tests
         run: |
