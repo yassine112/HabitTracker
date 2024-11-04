@@ -18,7 +18,6 @@ jobs:
 
       - name: Set up Xcode
         run: |
-          xcode-select --install
           sudo xcode-select --switch /Library/Developer/CommandLineTools
           sudo xcodebuild -license accept
 
