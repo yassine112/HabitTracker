@@ -54,7 +54,7 @@ struct CustomTextField: View {
             }
             
         }
-        .animation(.linear(duration: 0.15), value: isTyping)
+        .animation(.linear(duration: 0.1), value: isTyping)
     }
 }
 

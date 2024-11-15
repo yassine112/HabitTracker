@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showSignUp: Bool = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if showSignUp {
+            SignUpView(showSignUp: $showSignUp)
+        } else {
+            LoginView(showSignUp: $showSignUp)
         }
-        .padding()
     }
 }
 

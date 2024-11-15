@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "11053970_x_logo_twitter_new_brand_icon.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
+  }
+}
